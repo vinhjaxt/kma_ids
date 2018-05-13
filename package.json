@@ -1,0 +1,21 @@
+{
+  "name": "vcl_nids",
+  "version": "1.0.0",
+  "description": "NIDS",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "export DEBUG=1 && node index.js",
+    "test": "node test.js && exit 0"
+  },
+  "keywords": [
+    "NIDS",
+    "IDS"
+  ],
+  "author": "VCL Team",
+  "license": "ISC",
+  "dependencies": {
+    "os-utils": "0.0.14",
+    "request": "^2.85.0"
+  }
+}
