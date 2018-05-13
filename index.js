@@ -16,7 +16,7 @@ process.on('uncaughtException', function (err){
 
 process.env.NODE_ENV = 'production';
 
-const TelegramBot = (require('./TelegramBot'))('536034356:AAFcfuM1VPbyjjKR_sH3LgEiQXib-6uB6JQ');
+const TelegramBot = (require('./TelegramBot'))('Your_Token');
 const tcp_tracker  = new pcap.TCPTracker();
 const pcap_session = pcap.createSession("", "tcp port 80");
 
